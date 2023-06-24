@@ -10,6 +10,9 @@ brew install --cask git-credential-manager-core
 # Install ITerm2
 brew install --cask iterm2
 
+# Install Docker Desktop
+brew install --cask docker
+
 # Install Visual Studio Code
 brew install --cask visual-studio-code
 
