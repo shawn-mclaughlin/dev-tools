@@ -1,7 +1,7 @@
 SHELL := /bin/zsh
-.PHONY: install-all install-tools install-functions install-go
+.PHONY: install-all install-tools install-functions install-go install-js
 
-install-all: install-tools install-functions install-go
+install-all: install-tools install-functions install-go install-js
 
 install-tools:
 	. ./tools/install-tools.sh
