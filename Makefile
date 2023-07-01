@@ -11,3 +11,6 @@ install-functions:
 
 install-go:
 	. ./languages/install-go.sh
+
+install-js:
+	. ./languages/install-js.sh
