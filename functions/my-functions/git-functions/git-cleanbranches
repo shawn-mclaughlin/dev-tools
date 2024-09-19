@@ -1,5 +1,0 @@
-function git-cleanbranches() {
-    git branch --merged | egrep -v "(^\*|master|develop|main)" | xargs git branch -d
-}
-
-git-cleanbranches
